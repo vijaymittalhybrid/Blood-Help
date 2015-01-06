@@ -1,0 +1,20 @@
+body {
+}
+#blood-home .km-content {background-color:#FFFFFF}
+.km-search:after,
+    .km-search:before
+    {
+        content: "\e21e";
+    }
+#blood-home .login-DV {width:90%;height:auto;margin:0px auto;margin-top:20%}
+#blood-home .login-DV .txtbx {width:100%;height:35px;padding-left:7px;border:1px solid #CCC}
+#blood-home .login-DV .btn {width:100%;height:40px;background-color:#DC0000;color:#FFF;font-weight:bold;border-radius:10px;}
+
+#blood-home .nwBldDnr-DV {width:80%;border:1px solid #CCC;height:40px;margin:0px auto;margin-top:25%;box-shadow: 0 0 22px -6px;background-color:#DC0000;border-radius:10px}
+#blood-home .nwBldDnr-DV p {text-align:center;line-height:10px;color:white;font-weight:bold}
+/*#blood-home .nwBldDnr-DV:active {background-color:#E84C3D}*/
+#blood-home .logFB-DV {width:80%;border:1px solid #CCC;height:40px;margin:0px auto;margin-top:5%;box-shadow: 0 0 22px -6px;background:url('../style/image/a.png') no-repeat; background-size:100% 100%;border-radius:10px}
+
+.km-flat .km-tabstrip .km-state-active{background-color:#DC0000 !important;font-size:15px;line-height:1px;} 
+.km-tabstrip .km-button {line-height:10px !important}
+.km-flat .km-state-active{background-color:#E84C3D !important;} 

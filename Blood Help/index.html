@@ -4,13 +4,52 @@
     <title></title>
     <meta charset="utf-8" />
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
-
-    <script src="cordova.js"></script>
-    <script src="kendo/js/jquery.min.js"></script>
-    <script src="kendo/js/kendo.mobile.min.js"></script>
-    
+    <link href="style/main.css" rel="stylesheet"/>    
 </head>
 <body>
     
+    <!---->
+    <div data-role="view" id="blood-home" data-title="Blood Help" data-layout="home-layout">
+       <div data-role="content">
+           <div class="login-DV">
+               <p>
+                   <input type="number" name="mobnum" id="mobnum" placeholder="Mobile Number" class="txtbx"/>
+               </p>
+               <p>
+                   <input type="text" name="emailid" id="emailid" placeholder="Email Address" class="txtbx"/>
+               </p>
+               <p>
+                   <a data-role="button" class="btn">Login</a>
+               </p>
+           </div>
+           <div class="nwBldDnr-DV">
+               <p>
+                   Add New Blood Donnar
+               </p>
+           </div>
+           <div class="logFB-DV">
+               
+           </div>
+       </div>
+    </div>
+    
+    <div data-role="layout" data-id="home-layout">
+        <div data-role="header">
+            <div data-role="navbar" style="background-color:#DC0000;font-weight:bold;color:#FFFFFF">
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+        <div data-role="footer" >
+            <div data-role="tabstrip" >
+                <a data-icon="search" data-role="button"><span></span></a>
+            </div>
+        </div>
+    </div>
+    
+    <!--Script File-->
+    <script src="cordova.js"></script>
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.mobile.min.js"></script>
+    <script src="script/app.js"></script>
 </body>
 </html>
